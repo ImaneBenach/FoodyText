@@ -4,7 +4,7 @@ public class Heure {
 	private int minutes ;
 	
 	public void Heure (int, int) {
-		this.heure = heures ;
+		this.heures = heures ;
 		this.minutes = minutes ;	
 	}
 	
@@ -16,5 +16,12 @@ public class Heure {
 		return this.minutes;	
 	}
 	
+	public void setHeures(int heures){
+		this.heures = heures;
+	}
 	
+	public void setMinutes(int minutes) {
+		this.minutes = minutes;
+	}
+
 }
